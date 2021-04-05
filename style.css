@@ -1,0 +1,154 @@
+/* general styles */
+body {
+  font-family: "Nunito", sans-serif;
+  background: linear-gradient(180deg, rgb(253, 110, 110), rgb(83, 105, 140));
+}
+
+.container {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+/* nav bar */
+nav {
+   background-color: rgb(232, 100, 100, 0.02); 
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+nav li {
+  padding: 10px 25px;
+}
+
+nav a {
+  color: darkblue;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: rgb(159, 207, 46);
+  text-decoration: underline;
+}
+
+/* header section */
+header {
+  /* background: linear-gradient(180deg, rgb(255, 255, 255), rgb(14, 14, 14)); */
+  font-size: 25px;
+  padding: 15% 10%;
+}
+
+header h1 span {
+  color: darkblue;
+  font-family: "Pacifico", cursive;
+  font-size: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header h1 span:hover {
+  color: rgb(126, 79, 214);
+}
+
+/* about me section */
+.about {
+  /*background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1)),
+    url("../images/stars.png");*/
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* my skills section */
+.skills ul {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.skills li {
+  /* background-color: paleturquoise; */
+  box-shadow: 20px 20px 1px 2px rgba(255, 214, 255, 1);
+  font-size: 35px;
+  margin: 35px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* my work  */
+/* .work {
+  /* background-color: #bdd5ff; */
+ */
+
+.work-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.work-items img {
+  margin-bottom: 30px;
+}
+
+/* footer */
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .svg-inline--fa {
+  color: salmon;
+  font-size: 65px;
+}
+
+footer .svg-inline--fa:hover {
+  color: #3c778a;
+}
+#w1-img{
+  width: 40%;
+}
+
+/* Element | http://127.0.0.1:5500/index.html#work */
+
+body > nav:nth-child(1) {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+/* Element | http://127.0.0.1:5500/index.html#work */
+
+body > a:nth-child(4) {
+  font-size: 0px;
+  line-height: 57px;
+  letter-spacing: 0.014em;
+  font-weight: 400;
+}
+
+/* Element | http://127.0.0.1:5500/index.html#work */
+
+.work {
+  font-size: 19px;
+  line-height: 18px;
+  letter-spacing: 0.304em;
+  font-weight: 400;
+}
